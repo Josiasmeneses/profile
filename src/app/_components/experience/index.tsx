@@ -1,4 +1,10 @@
-import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+import { Card, CardContent } from "@/components/ui/card";
+import { 
+    Carousel, 
+    CarouselContent, 
+    CarouselItem, 
+    CarouselNext, 
+    CarouselPrevious } from "@/components/ui/carousel";
 
 
 const Experience = () =>{
@@ -6,9 +12,33 @@ const Experience = () =>{
     
         <Carousel>
             <CarouselContent>
-                <CarouselItem></CarouselItem>
-                <CarouselItem></CarouselItem>
-                <CarouselItem></CarouselItem>
+                <CarouselItem>
+                    <div>
+                    <Card>
+                        <CardContent>
+                            <span></span>
+                        </CardContent>
+                    </Card>
+                    </div>
+                </CarouselItem>
+                <CarouselItem>
+                <div>
+                    <Card>
+                        <CardContent>
+                            <span></span>
+                        </CardContent>
+                    </Card>
+                    </div>
+                </CarouselItem>
+                <CarouselItem>
+                <div>
+                    <Card>
+                        <CardContent>
+                            <span></span>
+                        </CardContent>
+                    </Card>
+                    </div>
+                </CarouselItem>
             </CarouselContent>
             <CarouselPrevious />
             <CarouselNext />

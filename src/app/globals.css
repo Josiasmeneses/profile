@@ -6,6 +6,16 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+#Container_Profile{
+  background-image: url('../../public/images/svg/svg\ 2.svg');
+  background-repeat: no-repeat;
+
+}
+
+link{
+  color: #D6D6F5;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
